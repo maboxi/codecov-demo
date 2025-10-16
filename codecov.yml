@@ -1,8 +1,6 @@
 coverage:
   status:
-    project: #add everything under here, more options at https://docs.codecov.com/docs/commit-status
+    project:
       default:
-        # basic
-        target: auto #default
-        threshold: 0%
-        base: auto 
+        target: 100%    # the required coverage value
+        threshold: 1%  # the leniency in hitting the target
